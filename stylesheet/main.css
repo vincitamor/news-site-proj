@@ -1,0 +1,124 @@
+/* .navigation {
+    display:flex;
+    background-color: black;
+    justify-content:space-between;
+    text-align: center;
+    height: 40px;
+    margin: 0px auto;
+}
+.routes a{
+    color: white;
+    text-align: center;
+}
+.sitename {
+    color: black;
+    border-width: 1.5px;
+    border-style: solid;
+    background-color: white;
+    padding: 0px 5px 0px 5px;
+}
+.navigation p{
+    display: inline-block;
+    text-align: left;
+    justify-content: center;
+    margin-top: 12px;
+    margin-right: -15px;
+    margin-left: -25px;
+}
+.linethru {
+    display: flex;
+    border-left: 1px solid white;
+    height: 100px;
+}
+.container {
+    margin: 0 auto;
+    padding: 0px 30px 0px 30px;
+    width:auto;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+} */
+/* .navigation {
+    display:flex;
+    background: black;
+    justify-content:space-between;
+    width: 100%;
+    height: 40px;
+}
+.sitename {
+    color: black;
+    border-width: 1.5px;
+    border-style: solid;
+    background-color: white;
+    font-size:x-large;
+    margin-right: 1px;
+}
+.navigation p{
+    margin-left: 5px;
+    display: inline;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+a{
+    color: white;
+    margin-right: 40px;
+}
+.linethru {
+    display: flex;
+    border-left: 1px solid white;
+    height: 100px;
+}
+.list {
+    display: inline-flex;
+} */
+.list{
+    display: flex;
+    margin: 0 auto;
+    float:inline-start;
+    background-color: black;
+    width: auto;
+    height: 40px;
+    justify-content: space-between;
+    margin-left: 0px;
+    padding-right: 80px;
+    
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+a {
+    color: white;
+}
+.sitename {
+    border: 1.5px solid black;
+    background-color: white;
+    color: black;
+    font-size: x-large;
+    padding: 0px 3px 0px 3px;
+    margin-right: 1px;
+}
+li {
+    border-right: 1.5px solid rgba(255, 255, 255, 0.3);
+    padding-right: 20px;
+    padding-top: 9px;
+}
+.searchbox {
+    margin-top: 9px;
+}
+.routes {
+    margin: -3px 0px 0px -30px;
+}
+/* .searchbox {
+    background-image: url(assets/magnifying-glass-g105c0839a_1280.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 10px 10px;
+    padding-right: 30px;
+} */
