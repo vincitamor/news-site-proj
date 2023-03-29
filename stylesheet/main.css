@@ -9,7 +9,8 @@
     margin-left: 0px;
     padding-right: 80px;
     position:sticky;
-    
+    box-sizing: border-box;
+    width: 1280px;
 }
 body {
     margin: 0px;
@@ -54,6 +55,7 @@ h2 {
     clear: both;
     filter: brightness(80%) contrast(120%);
     height: 450px;
+    box-sizing: border-box;
 }
 .imgOne:hover{
     opacity: .6;
@@ -61,17 +63,21 @@ h2 {
 .images:hover {
     opacity: .6;
 }
+ div .images-container {
+    width: 960px;
+    height: auto;
+}
 .stories {
 
 }
 .images {
+    box-sizing: border-box;
     width: 20%;
-    float: left;
-    margin: 7.5px;
+    float: right;
+    margin: 15px;
     height: 216px;
     margin-top: 8px;
     margin-bottom: 9.5px ;
-    margin-left: 25px;
 }
 h2 {
     margin-left: 7.5px;
