@@ -82,11 +82,12 @@ h2 {
 h2 {
     margin-left: 7.5px;
 }
-h3 {
-    transform: translate(5%, 1370%);
+.storyoneheading {
+    transform: translate(3%, 150%);
     color: rgb(255, 255, 255);
+    font-size: 14px;
     font-family: sans-serif;  
-    text-align: left;  
+    float: left;
     text-shadow: 1px 1px 1px black;
     position:absolute;
 }
