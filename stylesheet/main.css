@@ -9,13 +9,13 @@
     margin-left: 0px;
     padding-right: 80px;
     position:sticky;
-    box-sizing: border-box;
     width: 1280px;
 }
-body {
+html, body {
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
+    box-sizing: border-box;
 }
 a {
     color: white;
@@ -49,13 +49,13 @@ h2 {
     color: lightcoral;
 }
 .imgOne {
-    width: 50%;
+    width: 45%;
     float: left;
     margin: 7.5px;
+    margin-left: 20px;
     clear: both;
     filter: brightness(80%) contrast(120%);
     height: 450px;
-    box-sizing: border-box;
 }
 .imgOne:hover{
     opacity: .6;
@@ -64,17 +64,17 @@ h2 {
     opacity: .6;
 }
  div .images-container {
-    width: 960px;
+    width: 1860px;
     height: auto;
 }
 .stories {
 
 }
 .images {
-    box-sizing: border-box;
     width: 20%;
     float: right;
-    margin: 15px;
+    margin-left: 45px;
+    margin-right: 7.5px;
     height: 216px;
     margin-top: 8px;
     margin-bottom: 9.5px ;
@@ -83,7 +83,7 @@ h2 {
     margin-left: 7.5px;
 }
 .storyoneheading {
-    transform: translate(3%, 150%);
+    transform: translate(16%, 150%);
     color: rgb(255, 255, 255);
     font-size: 14px;
     font-family: sans-serif;  
