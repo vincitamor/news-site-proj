@@ -9,7 +9,7 @@
     margin-left: 0px;
     padding-right: 80px;
     position:sticky;
-    width: 1280px;
+    width: auto;
 }
 html, body {
     margin: 0px;
@@ -73,7 +73,7 @@ h2 {
 .images {
     width: 20%;
     float: right;
-    margin-left: 45px;
+    margin-left: 5px;
     margin-right: 7.5px;
     height: 216px;
     margin-top: 8px;
@@ -90,4 +90,18 @@ h2 {
     float: left;
     text-shadow: 1px 1px 1px black;
     position:absolute;
+}
+@media only screen and (max-width: 960px) {
+    .storyoneheading {
+        font-size: 9.3px;
+    }
+}
+@media only screen and (min-width: 960px) {
+    .storyoneheading {
+        font-size: 14.4px;
+    }
+}
+
+li {
+    list-style-type:none;
 }
