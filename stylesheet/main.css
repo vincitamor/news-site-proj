@@ -49,10 +49,10 @@ h2 {
     color: lightcoral;
 }
 .imgOne {
-    width: 45%;
+    width: 50%;
     float: left;
     margin: 7.5px;
-    margin-left: 20px;
+    margin-left: 0px;
     clear: both;
     filter: brightness(80%) contrast(120%);
     height: 450px;
@@ -72,12 +72,12 @@ h2 {
 }
 .images {
     width: 20%;
-    float: right;
-    margin-left: 5px;
+    float: left;
+    margin-left: 0px;
     margin-right: 7.5px;
     height: 216px;
-    margin-top: 8px;
-    margin-bottom: 9.5px ;
+    margin-top: -8px;
+    margin-bottom: 25.3px ;
 }
 h2 {
     margin-left: 7.5px;
