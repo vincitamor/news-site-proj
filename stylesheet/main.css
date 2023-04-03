@@ -16,6 +16,7 @@ html, body {
     padding: 0px;
     font-family: sans-serif;
     box-sizing: border-box;
+    background-color: rgb(90, 87, 87);
 }
 a {
     color: white;
@@ -48,12 +49,21 @@ li {
 h2 {
     color: lightcoral;
 }
-.imgOne {
-    width: 50%;
-    float: left;
-    margin: 7.5px;
-    margin-left: 0px;
+.mainstory::after,
+.mainstory::before {
+    content: "";
+    display: grid;
+}
+.mainstory::after {
     clear: both;
+}
+.mainstory {
+    clear: both;
+    *zoom: 1;
+}
+.imgOne {
+    width: 80%;
+    margin-left: 100px;
     filter: brightness(80%) contrast(120%);
     height: 450px;
 }
@@ -73,23 +83,23 @@ h2 {
 .images {
     width: 20%;
     float: left;
-    margin-left: 0px;
-    margin-right: 7.5px;
+    margin-left: 50px;
+    margin-right: -5px;
     height: 216px;
     margin-top: -8px;
-    margin-bottom: 25.3px ;
 }
 h2 {
     margin-left: 7.5px;
 }
 .storyoneheading {
-    transform: translate(16%, 150%);
     color: rgb(255, 255, 255);
-    font-size: 14px;
+    font-size: 24px;
     font-family: sans-serif;  
     float: left;
     text-shadow: 1px 1px 1px black;
-    position:absolute;
+    position:relative;
+    top: -450px;
+    left: 300px;
 }
 @media only screen and (max-width: 960px) {
     .storyoneheading {
@@ -105,3 +115,13 @@ h2 {
 li {
     list-style-type:none;
 }
+footer {
+    clear: both;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+/* property to show all boxes making up the page */
+/* * {
+    outline: 1px solid red !important;
+ }   */
