@@ -1,9 +1,7 @@
 .list{
     display: flex;
     margin: 0 auto;
-    float:inline-start;
     background-color: black;
-    width: auto;
     height: 40px;
     justify-content: space-between;
     margin-left: 0px;
@@ -20,6 +18,8 @@ html, body {
 }
 a {
     color: white;
+    text-decoration: none;
+
 }
 .sitename {
     border: 1.5px solid black;
@@ -28,6 +28,7 @@ a {
     font-size: x-large;
     padding: 0px 3px 0px 3px;
     margin-right: 1px;
+    text-decoration-line: none;
 }
 li {
     border-right: 1.5px solid rgba(255, 255, 255, 0.3);
@@ -41,7 +42,7 @@ li {
     margin: -3px 0px 0px -30px;
 }
 .searchbox {
-    margin-right: -;
+    margin-left: -12px;
 } 
 .btn {
     margin-right: -50px;
@@ -76,9 +77,6 @@ h2 {
  div .images-container {
     width: 1860px;
     height: auto;
-}
-.stories {
-
 }
 .images {
     width: 20%;
@@ -119,6 +117,15 @@ footer {
     clear: both;
     text-align: center;
     padding: 10px 10px;
+}
+.sitename:hover {
+    color: darkgray;
+}
+.hover:hover {
+    color: darkgray;
+}
+.socials:hover {
+    color: darkgrey;
 }
 
 /* property to show all boxes making up the page */
