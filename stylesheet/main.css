@@ -30,7 +30,6 @@ a {
     font-size: 20px;
     line-height: 20px;
     padding: 0px 3px 0px 3px;
-    text-decoration-line: none;
 }
 .searchbox {
     margin-top: -90px;
@@ -48,8 +47,8 @@ a {
 h2 {
     color: lightcoral;
 }
-.mainstory::after,
-.mainstory::before {
+.mainstory:after,
+.mainstory:before {
     content: "";
     display: grid;
 }
@@ -72,10 +71,6 @@ h2 {
 .images:hover {
     opacity: .6;
 }
- div .images-container {
-    width: 1860px;
-    height: auto;
-}
 .images {
     width: 20%;
     float: left;
@@ -95,11 +90,12 @@ h2 {
     text-shadow: 3px 4px 4px black;
     position:relative;
     top: -450px;
-    left: 350px;
+    left: 380px;
 }
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 700px) {
     .storyoneheading {
-        font-size: 9.3px;
+        font-size: 12.3px;
+        left: 130px;
     }
 }
 @media only screen and (min-width: 960px) {
@@ -107,7 +103,6 @@ h2 {
         font-size: 14.4px;
     }
 }
-
 li {
     list-style-type:none;
 }
