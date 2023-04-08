@@ -11,6 +11,7 @@ html, body {
     padding: 0px;
     font-family: sans-serif;
     box-sizing: border-box;
+    background: radial-gradient(#648880, #293f50);
 }
 a {
     color: white;
