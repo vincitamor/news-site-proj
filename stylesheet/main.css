@@ -1,7 +1,7 @@
 .navigation a {
     display: block;
     float: left;
-    padding: 0 20px;
+    padding: 0 21px;
     line-height: 40px;
     border-right: 1px solid rgb(233, 184, 184);
     background-color: black;
@@ -12,6 +12,7 @@ html, body {
     font-family: sans-serif;
     box-sizing: border-box;
     background: radial-gradient(#648880, #293f50);
+    background-repeat: repeat-y;
 }
 a {
     color: white;
@@ -29,8 +30,8 @@ a {
     background-color: white;
     color: black;
     font-size: 20px;
-    line-height: 20px;
-    padding: 0px 3px 0px 3px;
+    line-height: 25px;
+    padding: 0px 5px 0px 5px;
 }
 .searchbox {
     margin-top: -90px;
@@ -51,7 +52,6 @@ h2 {
 .mainstory:after,
 .mainstory:before {
     content: "";
-    display: grid;
 }
 .mainstory::after {
     clear: both;
@@ -61,10 +61,14 @@ h2 {
     *zoom: 1;
 }
 .imgOne {
-    width: 80%;
-    margin-left: 100px;
+    float: left;
+    clear: both;
+    width: 40%;
     filter: brightness(80%) contrast(120%);
     height: 450px;
+    display: block;
+    position: relative;
+    right: 33px;
 }
 .imgOne:hover{
     opacity: .6;
@@ -73,12 +77,12 @@ h2 {
     opacity: .6;
 }
 .images {
-    width: 20%;
-    float: left;
-    margin-left: 50px;
-    margin-right: -5px;
-    height: 216px;
-    margin-top: -8px;
+   height: 216px;
+   position: relative;
+   display: block;
+   float: left;
+   width: 20%;
+   clear: right;
 }
 h2 {
     margin-left: 7.5px;
@@ -125,12 +129,13 @@ a:visited {
     color: lightgrey;
 }
 .sign-in {
+    position: relative;
     text-align: center;
-    margin-top: 100px;
+    top: 225px;
 }
 .signInHeading {
     color:white;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.4);
     text-align: center;
     margin: 0;
     font-family: 'Times New Roman', Times, serif, "Segoe UI", segoe UI;
