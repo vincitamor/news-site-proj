@@ -95,10 +95,22 @@ h2 {
    position: relative;
    display: block;
    float: left;
-   width: 23%;
+   width: 26%;
    margin-bottom: 18px;
-   margin-right: 30px;
-   padding-left: 40px;
+   margin-right: 0px;
+   padding-left: 30px;
+}
+.secondStory {
+    position: relative;
+    filter: brightness(80%);
+
+}
+.secondStoryHeading {
+    position: absolute;
+    left: 665px;
+    top: 20px;
+    font-size: .8em;
+    text-shadow: 10px 10px 3px red;
 }
 h2 {
     margin-left: 7.5px;
