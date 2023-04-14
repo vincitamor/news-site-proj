@@ -92,8 +92,6 @@ h2 {
 }
 .images {
    height: 216px;
-   position: relative;
-   display: block;
    float: left;
    width: 26%;
    margin-bottom: 18px;
@@ -108,9 +106,46 @@ h2 {
 .secondStoryHeading {
     position: absolute;
     left: 665px;
-    top: 20px;
+    top: 10px;
     font-size: .8em;
     text-shadow: 10px 10px 3px red;
+    color: white;
+}
+.thirdStory {
+    position: relative;
+    filter: brightness(80%);
+}
+.thirdStoryHeading {
+    position: absolute;
+    left: 665px;
+    top: 350px;
+    font-size: .6em;
+    text-shadow: 10px 10px 3px red;
+    color: white;
+}
+.fourthStory {
+    position: relative;
+    filter: brightness(80%);
+}
+.fourthStoryHeading {
+    position: absolute;
+    left: 125.6em;
+    top: 20px;
+    font-size: .5em;
+    text-shadow: 10px 10px 3px red;
+    color: white;
+}
+.fifthStory {
+    position: relative;
+    filter: brightness(80%);
+}
+.fifthStoryHeading {
+    position: absolute;
+    left: 125.6em;
+    top: 250px;
+    font-size: .6em;
+    text-shadow: 10px 10px 3px red;
+    color: white;
 }
 h2 {
     margin-left: 7.5px;
