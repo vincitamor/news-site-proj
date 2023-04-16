@@ -11,9 +11,8 @@
 
 }
 .navigation a {
-    display: block;
     float: left;
-    padding: 0 21px;
+    padding: 0 22px;
     line-height: 40px;
     border-right: 1px solid rgb(233, 184, 184);
     background-color: black;
@@ -114,10 +113,11 @@ h2 {
 .thirdStory {
     position: relative;
     filter: brightness(80%);
+    background-blend-mode:hard-light;
 }
 .thirdStoryHeading {
     position: absolute;
-    left: 665px;
+    left: 50%;
     top: 350px;
     font-size: .6em;
     text-shadow: 10px 10px 3px red;
@@ -141,9 +141,10 @@ h2 {
 }
 .fifthStoryHeading {
     position: absolute;
-    left: 125.6em;
-    top: 250px;
-    font-size: .6em;
+    left: 68.6em;
+    top: 245px;
+    font-size: .9em;
+    font-weight: 700;
     text-shadow: 10px 10px 3px red;
     color: white;
 }
