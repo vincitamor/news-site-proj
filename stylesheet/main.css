@@ -20,9 +20,11 @@
 html, body {
     margin: 0px;
     padding: 0px;
+    max-width: 1400px;
     font-family: sans-serif;
     box-sizing: border-box;
-    background: linear-gradient(to left bottom, #3e5c55, #040404);
+    background: linear-gradient(to left bottom, #233b36, #050000);
+    background-repeat: repeat;
 }
 a {
     color: white;
@@ -93,9 +95,13 @@ h2 {
    height: 216px;
    float: left;
    width: 26%;
-   margin-bottom: 18px;
-   margin-right: 0px;
-   padding-left: 30px;
+   margin: 0 0 18px 0;
+}
+.movedLeft {
+    margin: 0 8px 0 -15px;
+}
+.imageBorders {
+    border-radius: 10%;
 }
 .secondStory {
     position: relative;
@@ -159,7 +165,6 @@ h2 {
     position: absolute;
     top: 120px;
     left: 15px;
-
 }
 
 li {
@@ -201,6 +206,11 @@ a:visited {
 #signInPage {
     background-color: black;
     margin: 0px auto;
+    height: 0;
+}
+.iframeLogin {
+    width: 100%;
+    border: 6px solid grey;
 }
 /* property to show all boxes making up the page */
 /* * {
