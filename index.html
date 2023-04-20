@@ -5,13 +5,14 @@
         <meta charset="utf-8">
         <title>BNS News</title>
         <link rel="stylesheet" href="/stylesheet/main.css">
+    </head>
         <body>
             <nav class="container navigation">       
                     <a class="site-name" href="#"><span class="sitename">B</span><span class="sitename">N</span><span class="sitename">S</span></a>
                     <a class="hover" href="signin.html">Sign in</a>
                     <a class="hover" href="index.html">Home</a>
                     <a class="hover" href="news.html">News</a>
-                    <a class="hover" href="sport.html">Sports<a>                    
+                    <a class="hover" href="sport.html">Sports</a>                    
                     <a class="hover" href="reel.html">Reel</a>
                     <a class="hover" href="worklife.html">Worklife</a>
                     <a class="hover" href="travel.html">Travel</a>
@@ -21,7 +22,7 @@
                     <div class="formStyle"> 
                     <form>
                         <label for="searchBox">
-                        <input class="searchbox" type="search" name="search" placeholder="Search" required>
+                        <input id="searchBox" type="search" name="search" placeholder="Search" required>
                         <button class="btn" type="submit">Search</button>
                     </label>
                     </form>    
@@ -30,10 +31,10 @@
                     <!--5 images, left image takes up 50% width of block, 4 images use up other 50%-->
                     <h2 class="websiteHeading">Welcome to BNS.com </h2>
                     <section class="mainstory">
-                        <div class="images-container">
                              <a href="#">
-                        <img class="imageBorders imgOne" src="assets/socialmedia.jpg"></a>
-                        <h3 class="storyoneheading">Social media is overtaking 60% of people's time, new study shows.</h3></li>
+                                <img class="imageBorders imgOne" src="assets/socialmedia.jpg">
+                            </a>
+                        <h3 class="storyoneheading">Social media is overtaking 60% of people's time, new study shows.</h3>
                     </section>
                     <section class="secondStory">
                     <a href="#">
@@ -43,8 +44,8 @@
                         <h3>The moon is beautiful</h3>
                     </div>
                     </section>
-                    <section class="thirdStory">
-                        <a href="#">
+                    <section class="thirdStoryContainer">
+                        <a class="thirdStory" href="#">
                         <img class="imageBorders images" src="assets/calc.png">
                     </a>
                     <div class="thirdStoryHeading">
@@ -67,13 +68,12 @@
                         <h3>Why is coding so interesting?</h3>
                     </div>
                     </section>
-                    </div>    
                     <div class="signinFrame">
                         <iframe class="iframeLogin" src="signin.html"></iframe>
                     </div>
+                </div>
                     <footer>
                         <p>&copy; No Copyright-<a class="socials" href="https://github.com/vincitamor">GitHub</a></p>
                     </footer>        
         </body>
-    </head>
 </html>

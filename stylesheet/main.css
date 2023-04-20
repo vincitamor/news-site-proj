@@ -120,6 +120,7 @@ h2 {
     position: relative;
     filter: brightness(80%);
     background-blend-mode:hard-light;
+    z-index: 0;
 }
 .thirdStoryHeading {
     position: absolute;
@@ -128,6 +129,7 @@ h2 {
     font-size: .6em;
     text-shadow: 10px 10px 3px red;
     color: white;
+    z-index: 1;
 }
 .fourthStory {
     position: relative;
