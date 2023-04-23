@@ -31,6 +31,11 @@ a {
     text-decoration: none;
 
 }
+.rowContainer {
+    min-width: 960px;
+    height: 450px;
+    margin: 50px;
+}
 .searchInput {
     margin-left: 9px;
 }
@@ -103,9 +108,6 @@ h2 {
 .movedLeft {
     margin: 0 8px 0 -15px;
 }
-.imageBorders {
-    border-radius: 10%;
-}
 .secondStory {
     position: relative;
     filter: brightness(80%);
@@ -113,7 +115,7 @@ h2 {
 }
 .secondStoryHeading {
     position: absolute;
-    left: 665px;
+    left: 580px;
     top: 10px;
     font-size: .8em;
     text-shadow: 10px 10px 3px red;
@@ -127,8 +129,8 @@ h2 {
 }
 .thirdStoryHeading {
     position: absolute;
-    left: 50%;
-    top: 350px;
+    left: 49%;
+    top: 375px;
     font-size: .6em;
     text-shadow: 10px 10px 3px red;
     color: white;
@@ -140,9 +142,9 @@ h2 {
 }
 .fourthStoryHeading {
     position: absolute;
-    left: 125.6em;
+    left: 89.2em;
     top: 20px;
-    font-size: .5em;
+    font-size: .62em;
     text-shadow: 10px 10px 3px red;
     color: white;
 }
@@ -152,7 +154,7 @@ h2 {
 }
 .fifthStoryHeading {
     position: absolute;
-    left: 68.6em;
+    left: 60.6em;
     top: 245px;
     font-size: .9em;
     font-weight: 700;
@@ -168,8 +170,8 @@ h2 {
     font-family: sans-serif;  
     text-shadow: 10px 10px 4px black;
     position: absolute;
-    top: 120px;
-    left: 15px;
+    top: 22%;
+    left: 5%;
 }
 
 li {
