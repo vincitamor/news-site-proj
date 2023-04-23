@@ -7,7 +7,7 @@ function login() {
     // Check if the username and password are correct
     if (email && password) {
       // Redirect to homepage
-      window.location.href = "index.html";
+      window.location.href = "LoggedInIndex.html";
     }
   }
   
