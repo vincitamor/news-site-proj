@@ -31,6 +31,9 @@ a {
     text-decoration: none;
 
 }
+.searchInput {
+    margin-left: 9px;
+}
 .formStyle {
     display: block;
     background-color: black;
