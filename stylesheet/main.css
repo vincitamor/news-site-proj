@@ -7,7 +7,7 @@
     }
     /* Web title heading */
 .websiteHeading {
-    margin: 15px 0 0 15px;
+    margin: 15px 0 0 0px;
 
 }
 .navigation a {
@@ -23,6 +23,7 @@ html, body {
     max-width: 1400px;
     font-family: sans-serif;
     box-sizing: border-box;
+    background: linear-gradient(to left bottom, #233b36, #050000);
     background-repeat: repeat;
 }
 a {
