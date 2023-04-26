@@ -9,15 +9,27 @@
         <h1 class="signInHeading">Log In</h1><!--     
         --><form action="LoggedInIndex.html" method="get" class="sign-in ">
             <fieldset>
-                <legend>Login</legend>
-                <label for="email"></label>
-                <div class="email-input">
-                    <input id="email" type="email" name="email" placeholder="Email@email.com" required>
-                    <label for="password"></label>
-                    <input id="password" type="password" name="password" placeholder="********" required>
-                    <button class="signInButton" type="button" onclick="login()">Login</button>
+                <div class="input-field">
+                    <div class="email-input">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" name="email" placeholder="Email@email.com" required>
+                    </div>
+                    <div class="password-input">
+                        <label for="password">Password</label>
+                        <input id="password" type="password" name="password" placeholder="********" required>
+                    </div>
                 </div>
-                <div id="message"></div>
+                    <hr>
+                    <div class="staySignedIn">
+                    <button class="signInButton" type="button" onclick="login()">Login</button>
+                    <label for="checkBox"></label>
+                    <input class="staySignedIn" type="checkbox" name="staySignedIn">
+                    <span style="color: white; font-size: medium; margin-left: 5px;">Stay signed in</span>
+                    </div>
+                <div id="createAcct">
+                    <span style="color: white;">Need to register?</span>
+                    <span><a class="registerAcct" href="createAccount.html">Create an account</a></span>
+                </div>
             </fieldset>
         </form>
         <script src="script.js"></script>

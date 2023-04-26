@@ -204,19 +204,66 @@ footer {
 a:visited {
     color: lightgrey;
 }
+/*
+=======================
+sign in page styles
+=======================
+*/
+
+.input-field {
+    padding: 20px 20px 0 20px;
+    text-align: left;
+}
 .email-input {
-    padding: 5px 0 10px 0px;
-    text-align: center;
+
+}
+#email {
+    height: 30px;
+    width: 100%;
+}
+#password {
+    height: 30px;
+}
+label {
+    color: white;
+    display: block;
+}
+.signInButton {
+    margin: 15px 0 10px 10px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.signInButton:hover {
+    color: grey;
+}
+.staySignedIn {
+    float: left;
+}
+.createAcct {
+    clear: both;
+}
+hr {
+    margin-top: 20px;
 }
 fieldset {
     border-radius: 6px;
     border: 1px solid red;
-    width: 35%;
+    width: 15%;
     position: relative;
-    left: 33%;
+    left: 32%;
 }
 legend {
     color: white;
+}
+#createAcct {
+    text-align: center;
+}
+.registerAcct {
+    color: rgb(70, 70, 230);
+}
+.registerAcct:hover {
+    color: #32675c;
 }
 .signInHeading {
     color:white;
