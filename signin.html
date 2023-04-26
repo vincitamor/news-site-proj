@@ -1,21 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="signInPage" lang="en">
     <head>
         <meta charset="utf-8">
         <title>Sign in page</title>
         <link rel="stylesheet" href="stylesheet/main.css" type="text/css">
     </head>
-    <body id="signInPage">
+    <body class="signInPage">
         <h1 class="signInHeading">Log In</h1><!--     
-        --><form action="/LoggedInIndex.html" method="get" class="sign-in ">
-            <label for="email"></label>
-            <input id="email" type="email" name="email" placeholder="Email@email.com" required>
-            <br>
-            <label for="password"></label>
-            <input id="password" type="password" name="password" placeholder="********" required>
-            <br>
-            <button class="signInButton" type="button" onclick="login()">Log in</button>
-            <div id="message"></div>
+        --><form action="LoggedInIndex.html" method="get" class="sign-in ">
+            <fieldset>
+                <legend>Login</legend>
+                <label for="email"></label>
+                <div class="email-input">
+                    <input id="email" type="email" name="email" placeholder="Email@email.com" required>
+                    <label for="password"></label>
+                    <input id="password" type="password" name="password" placeholder="********" required>
+                    <button class="signInButton" type="button" onclick="login()">Login</button>
+                </div>
+                <div id="message"></div>
+            </fieldset>
         </form>
         <script src="script.js"></script>
     </body>
