@@ -209,13 +209,25 @@ a:visited {
 sign in page styles
 =======================
 */
-
+fieldset {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
 .input-field {
     padding: 20px 20px 0 20px;
     text-align: left;
 }
 .email-input {
-
+    margin-top: -15px;
+    margin-left: -10px;
+    font-weight: bold;
+    font-size: large;
+}
+.password-input {
+    margin-left: -10px;
+    font-weight: bold;
+    font-size: large;
 }
 #email {
     height: 30px;
@@ -223,35 +235,37 @@ sign in page styles
 }
 #password {
     height: 30px;
+    width: 100%;
 }
 label {
     color: white;
     display: block;
 }
 .signInButton {
-    margin: 15px 0 10px 10px;
     padding: 5px 10px 5px 10px;
     border-radius: 4px;
     cursor: pointer;
+    float: left;
 }
 .signInButton:hover {
     color: grey;
 }
 .staySignedIn {
-    float: left;
+    color: white;
 }
 .createAcct {
     clear: both;
 }
 hr {
-    margin-top: 20px;
+    margin-top: 10px;
 }
-fieldset {
-    border-radius: 6px;
-    border: 1px solid red;
-    width: 15%;
-    position: relative;
-    left: 41%;
+.loginFields {
+    border: 1px solid #c6c7cc;
+    margin: 0;
+    border-radius: 5px;
+    width: 240px;
+    overflow: hidden;
+    font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 legend {
     color: white;
@@ -268,7 +282,6 @@ legend {
 .signInHeading {
     color:white;
     background-color: rgb(0, 0, 0, 0.7);
-    text-align: center;
     margin: 0;
     font-family: 'Times New Roman', Times, serif, "Segoe UI", segoe UI;
     text-transform:uppercase;
@@ -281,6 +294,19 @@ legend {
     width: 100%;
     border: 6px solid grey;
 }
+.checkBox {
+    float: left;
+    margin: 7px 0 0 20px;
+}
+/*
+=======================
+Buttons
+=======================
+*/
+.buttonAction {
+    padding: 20px ;
+}
+
 /* property to show all boxes making up the page */
 /* * {
     outline: 1px solid red !important;

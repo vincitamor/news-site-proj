@@ -7,7 +7,7 @@
     </head>
     <body class="signInPage">
         <h1 class="signInHeading">Log In</h1><!--     
-        --><form action="LoggedInIndex.html" method="get" class="sign-in ">
+        --><form class="loginFields" action="LoggedInIndex.html" method="get" class="sign-in ">
             <fieldset>
                 <div class="input-field">
                     <div class="email-input">
@@ -19,17 +19,15 @@
                         <input id="password" type="password" name="password" placeholder="********" required>
                     </div>
                 </div>
-                    <hr>
-                    <div class="staySignedIn">
-                    <button class="signInButton" type="button" onclick="login()">Login</button>
-                    <label for="checkBox"></label>
-                    <input class="staySignedIn" type="checkbox" name="staySignedIn">
-                    <span style="color: white; font-size: medium; margin-left: 5px;">Stay signed in</span>
-                    </div>
-                <div id="createAcct">
-                    <span style="color: white;">Need to register?</span>
-                    <span><a class="registerAcct" href="createAccount.html">Create an account</a></span>
-                </div>
+            </fieldset>
+            <hr>
+            <fieldset class="buttonAction">
+                <label for="signInButton">
+                    <input class="signInButton loginButton" type="submit" name="submit" value="Login" onclick="login()">
+                    <label class="checkBox" for="checkBox">
+                    <input class="staySignedIn" type="checkbox" name="staySignedIn"> Stay signed in
+                </label>
+
             </fieldset>
         </form>
         <script src="script.js"></script>
