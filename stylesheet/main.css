@@ -55,14 +55,12 @@ a {
 }
 .searchbox {
     margin-top: -90px;
+    margin-left: 15px;
+    line-height: 10px;
 }
 .routes {
     margin: -3px 0px 0px -30px;
 }
-.searchbox {
-    margin-left: 15px;
-    line-height: 10px;
-} 
 .btn {
     margin-right: -50px;
 }
@@ -93,10 +91,7 @@ h2 {
     position: relative;
     right: 33px;
 }
-.imgOne:hover{
-    opacity: .6;
-}
-.images:hover {
+.imgOne:hover, images:hover{
     opacity: .6;
 }
 .images {
@@ -111,7 +106,6 @@ h2 {
 .secondStory {
     position: relative;
     filter: brightness(80%);
-
 }
 .secondStoryHeading {
     position: absolute;
@@ -168,8 +162,6 @@ h2 {
     background-color: #233b36;
     float: left;
     border-radius: 50%;
-    margin-top: 3px;
-    margin-right: 10px;
     margin: 3px 10px 0 -12px;
 }
 .storyoneheading {
@@ -181,7 +173,6 @@ h2 {
     top: 22%;
     left: 5%;
 }
-
 li {
     list-style-type:none;
 }
