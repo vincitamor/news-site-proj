@@ -127,7 +127,6 @@ hr {
     left: 580px;
     top: 10px;
     font-size: .8em;
-    text-shadow: 10px 10px 3px red;
     color: white;
 }
 .thirdStory {
@@ -141,7 +140,6 @@ hr {
     left: 49%;
     top: 375px;
     font-size: .6em;
-    text-shadow: 10px 10px 3px red;
     color: white;
     z-index: 1;
 }
@@ -154,7 +152,6 @@ hr {
     left: 89.2em;
     top: 20px;
     font-size: .62em;
-    text-shadow: 10px 10px 3px red;
     color: white;
 }
 .fifthStory {
@@ -167,7 +164,6 @@ hr {
     top: 245px;
     font-size: .9em;
     font-weight: 700;
-    text-shadow: 10px 10px 3px red;
     color: white;
 }
 h2 {
@@ -183,7 +179,6 @@ h2 {
     color: rgb(255, 255, 255);
     font-size: 14px;
     font-family: sans-serif;  
-    text-shadow: 10px 10px 4px black;
     position: absolute;
     top: 22%;
     left: 5%;
