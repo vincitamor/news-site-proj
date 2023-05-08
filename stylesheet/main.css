@@ -307,6 +307,18 @@ Buttons
 .buttonAction {
     padding: 20px ;
 }
+/*
+=======================
+Media queries
+=======================
+*/
+@media (max-width:599px) {
+    .navigation a {
+        display: grid;
+        justify-content: right;
+        padding: 0 5px;
+    }
+}
 
 /* property to show all boxes making up the page */
 /* * {
